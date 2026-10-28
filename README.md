@@ -57,36 +57,21 @@ Now, the Stack becomes empty, which means we have visited all the nodes, and our
 <hr>
 <h3>Sample Input</h3>
 <hr>
-8 9 <BR>
-A B <BR>
-A C <BR>
-B E <BR>
-C D <BR>
-B D <BR>
-C G <BR>
-D F <BR>
-G F <BR>
-F H <BR>
+5 4 <BR>
+a b <BR>
+b c <BR>
+c d <BR>
+d e <BR>
+
 <hr>
 <h3>Sample Output</h3>
 <hr>
-['A', 'B', 'E', 'D', 'C', 'G', 'F', 'H']
-
+'a': ['b'], 'b': ['a', 'c'], 'c': ['b', 'd'], 'd': ['c', 'e'], 'e': ['d']
 <hr>
 
-<hr>
-<h3>Sample Input</h3>
-<hr>
-5 5 <BR>
-0 1 <BR>
-0 2 <BR>
-0 3 <BR>
-2 3 <BR>
-2 4 <BR>
-<hr>
-<h3>Sample Output</h3>
-<hr>
-['0', '1', '2', '3', '4']
+## Output:
+<img width="660" height="499" alt="image" src="https://github.com/user-attachments/assets/c98fecce-a88d-4271-beb5-fa87bb74c828" />
+
 
 <hr>
 <h3>Result:</h3>
